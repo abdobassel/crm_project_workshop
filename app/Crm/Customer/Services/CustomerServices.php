@@ -13,7 +13,9 @@ class CustomerServices
     public function index()
     {
 
-        return response(Customer::all());
+        return response(Customer::paginate(4));
+        //  return response(DB::table('customers')->orderBy('username')->paginate(4)); //pagination and orderby and querybuilder
+
     }
 
     public function show($id)

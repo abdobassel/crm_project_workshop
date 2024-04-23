@@ -17,6 +17,7 @@ class UserServices
         // name // customerid // cost // status
 
         $user = new User();
+
         $user->name = $request->name;
         $user->email = $request->email;
         $user->password = Hash::make($request->password);
