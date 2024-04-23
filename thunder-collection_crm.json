@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "crm",
+    "collectionId": "38bba16f-b484-4414-8b90-10a263a88f9f",
+    "dateExported": "2024-04-22T02:54:41.156Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "014ccb43-0464-4707-9066-9900333b744d",
+            "name": "customer",
+            "containerId": "",
+            "created": "2024-04-22T02:41:23.047Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "eb99803e-d83f-4b33-918d-a7a227769df3",
+            "name": "notes",
+            "containerId": "",
+            "created": "2024-04-22T02:41:33.893Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "50b40527-accf-45af-bc15-61738d15377c",
+            "name": "projects",
+            "containerId": "",
+            "created": "2024-04-22T02:41:42.896Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "1c731a34-91e5-4524-8721-6f3bb1f348f4",
+            "name": "invoices",
+            "containerId": "",
+            "created": "2024-04-22T02:41:50.957Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "2a595ff6-4eb4-4739-922b-8c17852dd38b",
+            "colId": "38bba16f-b484-4414-8b90-10a263a88f9f",
+            "containerId": "014ccb43-0464-4707-9066-9900333b744d",
+            "name": "customers",
+            "url": "customers",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-22T02:44:01.604Z",
+            "modified": "2024-04-22T02:52:08.026Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://127.0.0.1:8000/api/"
+        }
+    },
+    "ref": "0666oCYt9UfsBEeIbDnBa2YkkTskfeM3ZUdkGzR7kbVDNGHEUqabZH6brEtZV4BWZ-aValpzXfgfJ2naiIG82w"
+}
